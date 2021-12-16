@@ -1,0 +1,113 @@
+id;dish_name;calory;proteins;fats;carbo;type;description;coast;restarant_id
+1;Big Chicken Snack Box;1369;57;52;109;Snack;Mouth-watering and profitable box with Chicken wings 4 pcs, Strips 4 pcs, Chicken McNuggets™ 4 pcs and 2 medium servings of French fries;14.9;1
+2;Snack box with wings;549;28;25;54;Snack;Spicy Chicken Wings 2 pcs. in a crispy breading, juicy strips 2 pcs., delicious Chicken McNuggets™ 2 pcs. and medium French fries;7.9;1
+3;Chicken wings 3x;347;19;23;16;Snack;Delicious wings in a crispy breading seasoned with savory spices.;4.2;1
+4;Chicken wings 5x;574;32;38;27;Snack;Delicious wings in a crispy breading seasoned with savory spices.;7.2;1
+5;"Chicken wings
+7x";800;45;52;37;Snack;Delicious wings in a crispy breading seasoned with savory spices.;9.2;1
+6;Strips 3x;225;13;11;19;Snack;Juicy, tender chicken made from 100 % white meat in a crispy breading.;4.5;1
+7;Strips 5x;375;22;18;31;Snack;Juicy, tender chicken made from 100 % white meat in a crispy breading.;6.5;1
+8;Strips 7x;523;30;25;43;Snack;Juicy, tender chicken made from 100 % white meat in a crispy breading.;8.5;1
+9;Cheese sticks 3x;383;12;27;24;Snack;Delicious cheese sticks in crispy breading.;4.2;1
+10;Cheese sticks 15x;1979;61;139;112;Snack;Delicious cheese sticks in crispy breading.;19.5;1
+11;Chicken McNuggets 6x;268;17;14;18;Snack;Crispy coated chicken roasted in vegetable oil. Ideal for dipping into mustard, sour-sweet, barbeque sauce.;5.3;1
+12;Chicken McNuggets 18x;894;56;47;60;Snack;Crispy coated chicken roasted in vegetable oil. Ideal for dipping into mustard, sour-sweet, barbeque sauce.;11.7;1
+13;Big Mac Bacon;580;24;29;42;Burger;A big sandwich with two 100% beef patties on a special Big MacTM  bun, seasoned with lettuce, onions, two slices of pickled cucumbers, Cheddar cheese and our unbeatable Big MacTM sauce complemented by a rich taste and aroma of bacon.;6.9;1
+14;Big Tasty Roll;516;23;31;36;Roll;Two Juicy 100 % beef steaks, fresh vegetables, cheese, special Big Tasty smoky sauce, all this in a wheat cake.;7.8;1
+15;McChicken Premier;530;19;31;45;Burger;Crispy chicken fillet, Cheddar cheese, flavored bacon, tomato slice, fresh salad, ketchup, special Dijon sauce and sesame seed bun;6.7;1
+16;Big Tasty;702;31;47;39;Burger;A burger with one big 100% beef patty on a big bun sprinkled with sesame seeds. Big Tasty owes its delightful taste to 3 pieces of Emmental cheese, 2 slices of fresh tomato, lettuce, onion and spicy Grill sauce.;9.3;1
+17;Triple Cheeseburger;598;38;36;30;Burger;Three chopped steaks from natural beef with three slices of Сheddar cheese on a bun, seasoned with mustard, ketchup, onions and two pieces of pickled cucumber.;7;1
+18;Big Mac;509;27;26;42;Burger;A big sandwich with two 100% beef patties on a special Big MacTM  bun, seasoned with lettuce, onions, two slices of pickled cucumbers, Cheddar cheese and our unbeatable Big MacTM sauce;6;1
+19;Royal;597;36;32;39;Burger;Lush bun with sesame, with a big juicy beefsteak made from 100% beef, two slices of fragrant Cheddar cheese, onions, pickled cucumbers, with the addition of savory mustard and sweet ketchup. This is what we call “Royal”!;6.1;1
+20;Big Tasty with chicken;838;34;48;66;Burger;A sandwich with one tender chicken patty on a big bun sprinkled with sesame seeds. Big Tasty owes its delightful taste to 3 pieces of Emmental cheese, 2 slices of fresh tomato, lettuce, onion and spicy Grill sauce.;9.3;1
+21;Caesar Roll;537;17;34;41;Roll;"2  Strips in a crispy breading,  slice of tomato, lettuce and slices of hard cheese, dressed with a special sauce and wrapped in a wheat tortilla""";7.2;1
+22;McChicken;365;13;17;40;Burger;Roasted chicken patty served on a caramelized bun, seasoned with fresh lettuce and special sauce;5.5;1
+23;Chickenburger;295;9.4;14;32;Burger;Crispy coated chicken served on a caramelized bun, seasoned with fresh lettuce and special McChickenTM sauce.;2.5;1
+24;Cheeseburger;304;16;13;30;Burger;100% beef patty with Cheddar cheese, seasoned with mustard, ketchup, onion and a slice of pickled cucumber.;2.5;1
+25;Hamburger;254;13;8.8;30;Burger;100% beef sausage on a caramelized bun, seasoned with mustard, ketchup, onion and a slice of pickled cucumber.;2.3;1
+26;Double Filet-O-Fish;478;25;23;42;Burger;Well-fried fish filet (gadoid) served on a fluffy steamed bun with ½ a Cheddar slice seasoned with special tartare sauce.;7;1
+27;Filet-O-Fish;333;15;13;36;Burger;Well-fried fish filet (gadoid) served on a fluffy steamed bun with ½ a Cheddar slice seasoned with special tartare sauce.;6;1
+28;French Fries S;239;2.7;12;29;Garnish;Yummy, roasted potato sticks, slightly sprinkled with salt.;2.6;1
+29;French Fries M;341;3.9;17;42;Garnish;Yummy, roasted potato sticks, slightly sprinkled with salt.;3.3;1
+30;French Fries L;448;5.1;22;55;Snack;Yummy, roasted potato sticks, slightly sprinkled with salt.;3.7;1
+31;"Potato Wedges
+M";330;4.4;15;42;Snack;Tasty fried potato wedges with spices.;3.5;1
+32;Potato Wedges L;479;6.4;22;61;Snack;Tasty fried potato wedges with spices.;3.5;1
+33;McFlurry;324;6.4;7.9;57;Dessert;;4.2;1
+34;Sundae;243;5.1;4.8;45;Dessert;Soft dairy ice-cream;2.8;1
+35;Milkshake;249;5.6;6;43;Dessert;;3.4;1
+36;Pie;187;3;7.5;27;Dessert;;2.6;1
+37;Muffin;265;5.3;2.6;55;Dessert;;3.1;1
+38;Coke;170;0;0;42;Drink;;2.7;1
+39;Orage Juice;240;5.9;1;47;Drink;;3.4;1
+40;Bonaqua;0;0;0;0;Drink;;1.7;1
+41;WHOPPER ;591.8;26.1;31.4;51.2;Burger;;6.5;3
+42;BIG KING ;507.5;24;31.6;31.7;Burger;;5.9;3
+43;WHOPPER  Junior;312.8;12.4;14.7;32.7;Burger;;3.9;3
+44;WHOPPER  with cheese;679.5;30.8;38.8;51.8;Burger;;7.1;3
+45;Cheeseburger;286.3;14.6;11.2;31.8;Burger;;2.4;3
+46;Hamburger;242.4;12.2;7.5;31.5;Burger;;2.2;3
+47;Double Whopper;808.8;43.9;47.1;52.3;Burger;;9.2;3
+48;Bekonizer;1021.7;57.2;65.7;50.3;Burger;;10.8;3
+49;Triple WHOPPER ;1025.7;61.8;62.8;53.3;Burger;;12.3;3
+50;Steakhouse;645.3;28.9;35.4;51.9;Burger;;8.8;3
+51;Double Cheeseburger;415.6;23.9;21.1;32.5;Burger;;4.9;3
+52;Whopper Roll;519.3;24.4;29.9;19.8;Roll;;7.3;3
+53;Caesar King;322;11.9;13.6;38.1;Burger;;3.9;3
+54;Grillburger;309.3;14.6;11.2;31.8;Burger;;7.9;3
+55;King Go Rustic;616;7.7;24.5;58.1;Snack;;3.7;3
+56;King Go Nuggets;414;7.7;24.5;58.1;Snack;;5.4;3
+57;Barbecue Chicken Grill;501.2;27.5;20.3;62.2;Snack;;7.9;3
+58;Long Chicken;574.4;25.5;31.6;47;Burger;;2.9;3
+59;Chickenburger;322;11.9;13.6;38.1;Burger;;2.4;3
+60;Chicken King;561.9;23.2;26.7;57.1;Burger;;5.8;3
+61;Strips King;500;23;26;42;Burger;;4.3;3
+62;Fish King;457.7;17.4;22.7;45.8;Burger;;5.8;3
+63;Fish Roll;458.1;18.4;19.8;33.2;Roll;;7.1;3
+64;Caesar Roll with strips;405.7;27.8;17.2;27.5;Roll;;7.1;3
+65;RUSTIC potatoes;482;7.7;24.5;58.1;Snack;;3.5;3
+66;King Fries;342.1;4.5;13.9;49.8;Snack;;3.3;3
+68;Wings King;344.8;34;21.4;4.1;Snack;;8.4;3
+69;King Nuggets;321.7;23.9;14.3;24.3;Snack;;4.6;3
+70;Onion Rings;284.7;4.1;14.2;35.2;Snack;;3.2;3
+71;King Bouquet Big Mix;1521.8;79.4;79.4;122.3;Snack;;14.5;3
+72;King Bouquet Wings XXL;1999.6;197.2;124;23.5;Snack;;25;3
+73;Bucket King Bouquet Snack&Mix;1189.7;38;52.6;141.2;Snack;;11.5;3
+74;Caesar salad with shrimp;493.7;13.4;39.5;21.2;Snack;;9.9;3
+75;Orange juice;89.6;0.4;0;22.4;Drink;;1.5;3
+76;Pepsi;190;0;0;43.5;Drink;;3.6;3
+77;Strawberry-vanilla pie;199.7;2.1;7.6;30.7;Dessert;;2.5;3
+78;Strawberry donat;239.3;3.1;14.3;24.2;Dessert;;2.5;3
+79;Waffle Cone;110.4;2.9;2.9;17.9;Dessert;;4.4;3
+80;Sunday Chocolate;268;6;7.3;39.9;Dessert;;2.9;3
+81;Vanilla shake;511.5;11.1;8.5;91.3;Dessert;;3.9;3
+82;Hot brownie with ice cream;453.6;6.4;26.6;47.3;Dessert;;4.4;3
+83;Boxmaster;640;22;42;58;Roll;;7.5;2
+84;Schefburger;235;10;22;11;Burger;;4.7;2
+85;The shefburger is spicy;233;11;22.1;11.3;Burger;;4.7;2
+86;Double Schefburger;575;25;49;38;Burger;;8.5;2
+87;Double Shefburger spicy;570;25;48.8;37.6;Burger;;8.5;2
+88;Cheeseburger;325;12;18;35;Burger;;3;2
+89;Longer;300;13;13;32;Burger;;2.5;2
+90;Ai-Twister Cheese;275;9.9;14.5;25;Roll;;2.5;2
+91;Strips 5 pcs. original;410;34.5;21.5;19.4;Snack;;7.4;2
+92;Strips 2 pcs. original;165;14;9;8;Snack;;3.7;2
+93;Strips 3 pcs. original;245;21;13;12;Snack;;4.7;2
+94;Strips 5 pcs. sharp;413;31;14.5;22;Snack;;7.4;2
+95;Strips 2 pcs. sharp;160;12;6;9;Snack;;3.7;2
+96;Strips 3 pcs. sharp;235;19;9;13.5;Snack;;4.7;2
+97;Chicken wings 3 pieces;261;13;17;13;Snack;;4.1;2
+98;Chicken wings 5 pieces;435;23;28;21;Snack;;7.5;2
+99;Chicken wings 8 pieces;687;36;45;33;Snack;;9.9;2
+100;Caesar salad with sauce;345;22.4;19.4;18.7;Snack;;5.1;2
+101;French fries  small;210;2.8;11;21.4;Snack;;2.6;2
+102;French fries standard;345;4.7;19;37;Snack;;3.3;2
+103;Free Basket;670;7;31;61;Snack;;4.9;2
+104;Ice cream (cone);130;4;3;22;Dessert;;1.7;2
+105;Cheesecake with topping and raisins;310;8;14;39;Dessert;;3.1;2
+106;Cherry pie;255;2;12;32;Dessert;;2.5;2
+107;Americano;81;0.8;1.9;16;Drink;;3.7;2
+108;Cappuccino;74;3.5;4;6;Drink;;3.7;2
+109;Milk Shake;165;3;4;27;Dessert;;3.2;2
+110;French fries  small;210;3;11;21.4;Snack;;2.6;2
+111;French fries standard;345;5.2;19;37;Snack;;3.5;2

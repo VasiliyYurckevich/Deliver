@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SpinnerTheme">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/architects_daughter</item>
+        <item name="minHeight">50sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:spinnerItemStyle">@style/spinnerItemStyle</item>
+        <item name="android:spinnerDropDownItemStyle">@style/spinnerDropDownItemStyle</item>
+    </style>
+    <style name="SpinnerTheme1">
+
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">@font/architects_daughter</item>
+        <item name="minHeight">50sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:spinnerItemStyle">@style/spinnerItemStyle</item>
+        <item name="android:spinnerDropDownItemStyle">@style/spinnerDropDownItemStyle</item>
+    </style>
+    <style name="spinnerItemStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:paddingStart">0dp</item>
+    </style>
+
+    <style name="spinnerDropDownItemStyle">
+        <item name="android:gravity">center</item>
+    </style>
+</resources>
