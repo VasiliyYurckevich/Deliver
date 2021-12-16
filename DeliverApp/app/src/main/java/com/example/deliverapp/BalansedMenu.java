@@ -12,10 +12,10 @@ public class BalansedMenu extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_balansed_menu);
-        TV = findViewById(R.id.tv);
-        Diet diet = new Diet();
-        diet.model();
-        diet.search(TV);
+//        TV = findViewById(R.id.tv);
+//        Diet diet = new Diet();
+//        diet.model();
+//        diet.search(TV);
 
     }
 }
