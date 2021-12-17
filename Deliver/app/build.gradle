@@ -5,7 +5,7 @@ plugins {
 android {
     compileSdk 31
 
-    defaultConfig {
+     defaultConfig {
         applicationId "com.deliver"
         minSdk 26
         targetSdk 31
@@ -17,7 +17,7 @@ android {
 
     android {
         // Some other stuffs
-
+    // multiDexEnabled true
         // Rest of other stuffs
     }
     buildTypes {
@@ -34,9 +34,11 @@ android {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
     }
+
 }
 
 dependencies {
+   // implementation 'com.android.support:multidex:1.0.3'
     implementation 'androidx.appcompat:appcompat:1.4.0'
     compileOnly("org.jacop:jacop:4.8.0")
     implementation 'com.google.android.material:material:1.4.0'

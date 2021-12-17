@@ -6,11 +6,14 @@ import com.deliver.database.DatabasesHelper;
 
 import org.jacop.constraints.SumWeight;
 import org.jacop.constraints.XgteqC;
-import org.jacop.constraints.XlteqC;
 import org.jacop.core.IntVar;
 import org.jacop.core.Store;
-import org.jacop.search.*;
-
+import org.jacop.search.DepthFirstSearch;
+import org.jacop.search.IndomainMin;
+import org.jacop.search.Search;
+import org.jacop.search.SelectChoicePoint;
+import org.jacop.search.SimpleSelect;
+import org.jacop.search.SmallestDomain;
 
 import java.util.ArrayList;
 
