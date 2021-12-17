@@ -2,12 +2,15 @@
   <library name="Gradle: org.jacop:jacop:4.8.0">
     <CLASSES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jacop/jacop/4.8.0/444be36465553f1380eb65cf935b893db70ce99e/jacop-4.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/modules-2/files-2.1/org.jacop/jacop/4.8.0/444be36465553f1380eb65cf935b893db70ce99e/jacop-4.8.0.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jacop/jacop/4.8.0/6bc3c0d8d676ac7c36e659dc111cc404bdd42c8e/jacop-4.8.0-javadoc.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/modules-2/files-2.1/org.jacop/jacop/4.8.0/6bc3c0d8d676ac7c36e659dc111cc404bdd42c8e/jacop-4.8.0-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jacop/jacop/4.8.0/4986aea71ea31aa528259c1ffdd3ce3ea96f7d21/jacop-4.8.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/modules-2/files-2.1/org.jacop/jacop/4.8.0/4986aea71ea31aa528259c1ffdd3ce3ea96f7d21/jacop-4.8.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

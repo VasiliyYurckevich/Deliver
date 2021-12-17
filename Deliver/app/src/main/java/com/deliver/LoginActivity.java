@@ -16,8 +16,7 @@ public class LoginActivity extends AppCompatActivity {
     public Button eLogin;
     public Button eSingUp;
 
-    private final String adminEmail = "Admin";
-    private final String adminPass = "12345678";
+
     private boolean isValid = false;
     private int counter = 5;
 
@@ -68,4 +67,78 @@ public class LoginActivity extends AppCompatActivity {
     private boolean validate(String email, String pass) {
         return email.equals(adminEmail) && pass.equals(adminPass);
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    private final String adminEmail = "Admin";
+    private final String adminPass = "12345678";
 }

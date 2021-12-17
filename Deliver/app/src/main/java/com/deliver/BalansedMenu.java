@@ -1,4 +1,4 @@
-package com.deliverф;
+package com.deliver;
 
 import androidx.appcompat.app.AppCompatActivity;
 import com.deliver.Diet;
@@ -9,7 +9,9 @@ import android.widget.Button;
 import android.widget.TextView;
 
 public class BalansedMenu extends AppCompatActivity {
+
     public TextView TV;
+    protected int restSelId = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

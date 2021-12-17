@@ -2,31 +2,36 @@ package com.deliver;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemSelectedListener;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Spinner;
-import android.widget.Toast;
 
-import com.deliver.database.DatabaseHelper;
+import com.deliver.BalansedMenu;
 
 import java.util.ArrayList;
 
 public class MenuCreator extends AppCompatActivity {
+    private static final String[] REST= { "Mc'Donalds",
+            "KFC", "Burger King"};
+
 
     private static final String[] MEAlPLAN = { " Keto Diet\n(20/70/10)",
             "Blanced Diet\n(20/30/50)", "High Protein Diet\n(40/30/30)",
             "Mediterranean Diet\n(40/30/30)"};
 
-    protected int restSelId = 1;
+    ;
     protected int MPSelId = 1;
     private EditText eCalorie;
     private Spinner spinner;
     private Spinner spinnerMP;
     private DatabaseHelper Db;
+    private Button bCBM;
 
 
     @Override
@@ -34,26 +39,24 @@ public class MenuCreator extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu_creator);
         ArrayList<String> mNamesList = new ArrayList<>();
-        Db = new DatabaseHelper(this);
-        Db.open();
-        Db.getAllNames(mNamesList);
+        bCBM = findViewById(R.id.btnCBM);
         spinner = findViewById(R.id.spinner);
         eCalorie = findViewById(R.id.calories);
         spinnerMP = findViewById(R.id.spinnerMP);
 
-        ArrayAdapter<String> adapterRest = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, mNamesList);
+        ArrayAdapter<String> adapterRest = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, REST);
         adapterRest.setDropDownViewResource(android.R.layout.simple_spinner_item);
         spinner.setAdapter(adapterRest);
 
-        ArrayAdapter<String> adapterMP = new ArrayAdapter<String>(this,android.R.layout.simple_expandable_list_item_1,MEAlPLAN);
+        ArrayAdapter<String> adapterMP = new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1,MEAlPLAN);
         adapterMP.setDropDownViewResource(android.R.layout.simple_expandable_list_item_1);
         spinnerMP.setAdapter(adapterMP);
 
         spinner.setOnItemSelectedListener(new OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-                restSelId = position+1;
-                Toast.makeText(MenuCreator.this,"Position = " + restSelId, Toast.LENGTH_SHORT).show();
+               // DatabasesHelper.restSelId = position+1;
+                //Toast.makeText(MenuCreator.this,"Position = " + restSelId, Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -72,6 +75,15 @@ public class MenuCreator extends AppCompatActivity {
 
             }
         });
+
+        bCBM.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MenuCreator.this, BalansedMenu.class);
+                startActivity(intent);
+            }
+        });
+
 
 
 

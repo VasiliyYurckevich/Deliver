@@ -11,12 +11,12 @@
     tools:ignore="MissingClass">
 
     <LinearLayout
-        android:layout_width="415dp"
-        android:layout_height="721dp"
+        android:layout_width="406dp"
+        android:layout_height="503dp"
         android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingClass,MissingConstraints"
-        tools:layout_editor_absoluteX="-5dp">
+        tools:ignore="MissingClass,MissingConstraints">
 
         <TextView
             android:id="@+id/textView"
@@ -64,11 +64,11 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="30sp"
             android:ems="15"
-            android:gravity="center"
             android:fontFamily="@font/architects_daughter"
+            android:gravity="center"
+            android:hint="Total calories"
             android:inputType="number"
-            android:minHeight="48dp"
-            android:hint="Total calories"/>
+            android:minHeight="48dp" />
 
         <TextView
             android:id="@+id/textView4"
@@ -100,8 +100,21 @@
             android:gravity="center"
             android:textAlignment="center"
             android:theme="@style/SpinnerTheme"
-            tools:ignore="SpeakableTextPresentCheck"
-            />
+            tools:ignore="SpeakableTextPresentCheck" />
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCBM"
+        android:layout_width="128sp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#d57eeb"
+        android:gravity="center"
+        android:text="Create Balansed Menu"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:fontFamily="@font/architects_daughter"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="141dp"
+        tools:layout_editor_absoluteY="533dp" />" />
 </androidx.constraintlayout.widget.ConstraintLayout>

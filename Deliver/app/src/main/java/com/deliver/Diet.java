@@ -2,6 +2,8 @@ package com.deliver;
 
 import android.widget.TextView;
 
+import com.deliver.database.DatabasesHelper;
+
 import org.jacop.constraints.SumWeight;
 import org.jacop.constraints.XgteqC;
 import org.jacop.constraints.XlteqC;
@@ -21,32 +23,24 @@ public class Diet {
     int n;
     int m;
 
-    String[] food = {"Big Chicken Snack Box","Snack box with wings","Chicken wings 3x","Chicken wings 5x","Chicken wings 7x","Strips 3x","Strips 5x","Strips 7x","Cheese sticks 3x","Cheese sticks 15x","Chicken McNuggets 6x","Chicken McNuggets 18x","Big Mac Bacon","Big Tasty Roll","McChicken Premier","Big Tasty","Triple Cheeseburger","Big Mac","Royal","Big Tasty with chicken","Caesar Roll","McChicken","Chickenburger","Cheeseburger","Hamburger","Double Filet-O-Fish","Filet-O-Fish","French Fries S","French Fries M","French Fries L","Potato WedgesM","Potato Wedges L","McFlurry","Sundae","Milkshake","Pie","Muffin","Coke","Orage Juice","Bonaqua" };
-    String[] ingredients = {"Calories", "Chocolate", "Sugar", "Fat"};
+
+    String[] foodMC = {"Big Chicken Snack Box", "Snack box with wings", "Chicken wings 3x", "Chicken wings 5x", "Chicken wings 7x", "Strips 3x", "Strips 5x", "Strips 7x", "Cheese sticks 3x", "Cheese sticks 15x", "Chicken McNuggets 6x", "Chicken McNuggets 18x", "Big Mac Bacon", "Big Tasty Roll", "McChicken Premier", "Big Tasty", "Triple Cheeseburger", "Big Mac", "Royal", "Big Tasty with chicken", "Caesar Roll", "McChicken", "Chickenburger", "Cheeseburger", "Hamburger", "Double Filet-O-Fish", "Filet-O-Fish", "French Fries S", "French Fries M", "French Fries L", "Potato WedgesM", "Potato Wedges L", "McFlurry", "Sundae", "Milkshake", "Pie", "Muffin", "Coke", "Orage Juice", "Bonaqua"};
+    String[] ingredients = {"Calories", "Proteins", "Fats", "Fat"};
+    String[] foodBK = {"WHOPPER ", "BIG KING ", "WHOPPER  Junior", "WHOPPER  with cheese", "Cheeseburger", "Hamburger", "Double Whopper", "Bekonizer", "Triple WHOPPER ", "Steakhouse", "Double Cheeseburger", "Whopper Roll", "Caesar King", "Grillburger", "King Go Rustic", "King Go Nuggets", "Barbecue Chicken Grill", "Long Chicken", "Chickenburger", "Chicken King", "Strips King", "Fish King", "Fish Roll", "Caesar Roll with strips", "RUSTIC potatoes", "King Fries", "Wings King", "King Nuggets", "Onion Rings", "King Bouquet Big Mix", "King Bouquet Wings XXL", "Bucket King Bouquet Snack&Mix", "Caesar salad with shrimp", "Orange juice", "Pepsi", "Strawberry-vanilla pie", "Strawberry donat", "Waffle Cone", "Sunday Chocolate", "Vanilla shake", "Hot brownie with ice cream"};
+    String[] foodKFC = {"Boxmaster","Schefburger","The shefburger is spicy","Double Schefburger","Double Shefburger spicy","Cheeseburger","Longer","Ai-Twister Cheese","Strips 5 pcs. original","Strips 2 pcs. Original","Strips 3 pcs. original","Strips 5 pcs. sharp","Strips 2 pcs. sharp","Strips 3 pcs. Sharp","Chicken wings 3 pieces","Chicken wings 5 pieces","Chicken wings 8 pieces","Caesar salad with sauce","French fries  small","French fries standard","Free Basket","Ice cream (cone)","Cheesecake with topping and raisins","Cherry pie","Americano","Cappuccino","Milk Shake","French fries  small","French fries standard"};
 
 
-    /**
-     *
-     *  Model
-     *
-     */
     public void model() {
-
+        DatabasesHelper db = new DatabasesHelper();
+        Diet diet = new Diet();
         store = new Store();
-
         n = 4; // number of ingredients
-
         int[] maxVals = {200000, 2000000, 2000000, 200000};
-        int[] price   = {1490,790,420,720,920,450,650,850,420,1950,530,1170,690,780,670,930,700,600,610,930,720,550,250,250,230,700,600,260,330,370,350,350,420,280,340,260,310,270,340,170}; // in cents
+        int[] price = db.getPriceBK();
         int[] limits  = {1500, 70, 80, 80};
         m =price.length ;
-        int[][] matrix = {{1369,549,347,574,800,225,375,523,383,1979,268,894,580,516,530,702,598,509,597,838,537,365,295,304,254,478,333,239,341,448,330,479,324,243,249,187,265,170,240,0},  // calories
-                {  57,28,19,32,45,13,22,30,12,61,17,56,24,23,19,31,38,27,36,34,17,13,9,16,13,25,15,3,4,5,4,6,6,5,6,3,5,0,5,0},
-                {  252,25,23,38,52,11,18,25,27,139,14,47,29,31,31,47,36,26,32,48,34,17,14,13,9,23,13,12,17,22,15,22,8,5,6,8,3,0,1,0},
-                { 109,54,16,27,37,19,31,43,24,112,18,60,42,36,45,39,30,42,39,66,41,40,32,30,30,42,36,29,42,55,42,61,57,45,43,27,55,42,47,0}};
-
-
-
+        String[] food = db.getFoodBK();
+        int[][] matrix = db.getMatrixBK() ;
         x = new IntVar[m];
         for(int i = 0; i < m; i++) {
             x[i] = new IntVar(store,
@@ -91,7 +85,7 @@ public class Diet {
         if (result) {
             TC.setText(cost.value());
             for(int i = 0; i < m; i++) {
-                System.out.println(food[i] + ": " + x[i].value());
+                System.out.println(foodBK[i] + ": " + x[i].value());
             }
         }  else {
             System.out.println("No solution.");
