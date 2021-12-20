@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <style name="SpinnerTheme">
+        <item name="android:gravity">center_horizontal</item>
         <item name="android:textSize">20sp</item>
         <item name="android:fontFamily">@font/architects_daughter</item>
         <item name="minHeight">50sp</item>

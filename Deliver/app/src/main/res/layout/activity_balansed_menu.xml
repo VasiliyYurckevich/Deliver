@@ -1,15 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@drawable/bg_login"
     android:layout_height="match_parent"
     tools:context=".BalansedMenu">
 
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="409dp"
+        android:layout_height="603dp"
+        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <ListView
+            android:id="@+id/list1"
+            android:layout_width="305dp"
+            android:layout_height="match_parent"
+            android:minHeight="50sp" />
+
+        <ListView
+            android:id="@+id/list2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minHeight="50sp" />
+    </LinearLayout>
+
     <TextView
         android:id="@+id/tv"
-        android:layout_width="165dp"
+        android:layout_width="wrap_content"
         android:layout_height="127dp"
+        android:layout_marginBottom="200dp"
+        android:gravity="center"
         android:text=""
-        tools:layout_editor_absoluteX="125dp"
-        tools:layout_editor_absoluteY="152dp" />
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btnCBM"
+        android:layout_width="128sp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="140dp"
+        android:backgroundTint="#d57eeb"
+        android:fontFamily="@font/architects_daughter"
+        android:text="Add to basket"
+        android:textColor="@color/white"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="MissingConstraints" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
