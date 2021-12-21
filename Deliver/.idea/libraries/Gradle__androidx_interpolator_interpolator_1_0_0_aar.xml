@@ -2,9 +2,10 @@
   <library name="Gradle: androidx.interpolator:interpolator:1.0.0@aar">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/transforms-3/511e2a36f18b29fdf3f425e3962668f8/transformed/interpolator-1.0.0/res" />
-      <root url="file://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/transforms-3/baba68c0018ec0a250fe07a5bf8444ed/transformed/interpolator-1.0.0/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/transforms-3/baba68c0018ec0a250fe07a5bf8444ed/transformed/interpolator-1.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/transforms-3/baba68c0018ec0a250fe07a5bf8444ed/transformed/interpolator-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/transforms-3/cf1114ed8768828b9c5fab4a3feca5a4/transformed/interpolator-1.0.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/transforms-3/cf1114ed8768828b9c5fab4a3feca5a4/transformed/interpolator-1.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/transforms-3/cf1114ed8768828b9c5fab4a3feca5a4/transformed/interpolator-1.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

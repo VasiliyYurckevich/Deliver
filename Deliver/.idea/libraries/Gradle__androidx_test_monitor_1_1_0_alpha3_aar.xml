@@ -3,8 +3,9 @@
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/transforms-3/e9847af966b3e3388d98de8b5366ceb7/transformed/monitor-1.1.0-alpha3/res" />
       <root url="file://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/transforms-3/fe8e0e26944137a72ce3d85cd61e3ee8/transformed/monitor-1.1.0-alpha3/res" />
-      <root url="file://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/transforms-3/fe8e0e26944137a72ce3d85cd61e3ee8/transformed/monitor-1.1.0-alpha3/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/transforms-3/fe8e0e26944137a72ce3d85cd61e3ee8/transformed/monitor-1.1.0-alpha3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/transforms-3/c071ec93b178e4a0653de3f42c0dfeee/transformed/monitor-1.1.0-alpha3/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/transforms-3/c071ec93b178e4a0653de3f42c0dfeee/transformed/monitor-1.1.0-alpha3/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/transforms-3/c071ec93b178e4a0653de3f42c0dfeee/transformed/monitor-1.1.0-alpha3/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/modules-2/files-2.1/androidx.test/monitor/1.1.0-alpha3/43a6f286efaedf7007acaaa0a6b9ed505a85f072/monitor-1.1.0-alpha3-javadoc.jar!/" />

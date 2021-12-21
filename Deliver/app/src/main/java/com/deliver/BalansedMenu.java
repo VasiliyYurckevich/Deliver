@@ -43,7 +43,7 @@ public class BalansedMenu extends AppCompatActivity {
         TV = findViewById(R.id.tv);
         list1 = findViewById(R.id.list1);
         list2 = findViewById(R.id.list2);
-        cost = coast*0.01;
+        cost = coast/100;
         TV.setText("Cost = " + cost + " рублей");
         price = Arrays.stream(price).filter(x -> x != 0).toArray();;
 
@@ -53,9 +53,6 @@ public class BalansedMenu extends AppCompatActivity {
             price1[i] = String.valueOf(price[i]);
         }
 
-       /* price1 = Arrays.stream(price1)
-                .filter(s -> (s != null && s != "0" && s.length() > 0))
-                .toArray(String[]::new);*/
         name = Arrays.stream(name)
                 .filter(s -> (s != null && s.length() > 0))
                 .toArray(String[]::new);

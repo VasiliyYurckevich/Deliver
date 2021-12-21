@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: androidx.lifecycle:lifecycle-runtime:2.4.0@aar">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/transforms-3/c580786a56b4afd9300ca9f8e6380b7e/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml" />
-      <root url="jar://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/transforms-3/c580786a56b4afd9300ca9f8e6380b7e/transformed/lifecycle-runtime-2.4.0/jars/classes.jar!/" />
-      <root url="file://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/transforms-3/c580786a56b4afd9300ca9f8e6380b7e/transformed/lifecycle-runtime-2.4.0/res" />
+      <root url="jar://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/transforms-3/d68641b50fb45d462b54c41c46d85ab6/transformed/lifecycle-runtime-2.4.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/transforms-3/d68641b50fb45d462b54c41c46d85ab6/transformed/lifecycle-runtime-2.4.0/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../../../../java_libs/gradle-7.3.1/caches/transforms-3/d68641b50fb45d462b54c41c46d85ab6/transformed/lifecycle-runtime-2.4.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

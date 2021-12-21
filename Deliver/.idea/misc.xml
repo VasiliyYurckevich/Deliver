@@ -5,16 +5,29 @@
       <map>
         <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/drawable-v24/bg_login.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/drawable-v24/btn_borders.xml" value="0.22135416666666666" />
+        <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/drawable-v24/ic_launcher_background.xml" value="0.2390625" />
         <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.18055555555555555" />
         <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/drawable/ic_launcher_background.xml" value="0.18055555555555555" />
         <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/drawable/multiline_spinner_row.xml" value="0.22135416666666666" />
         <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/font/pacifico.xml" value="0.18055555555555555" />
+        <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/layout-w600dp/activity_menu_rest.xml" value="0.18871252204585537" />
         <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/layout/activity_balansed_menu.xml" value="0.20208333333333334" />
         <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/layout/activity_login.xml" value="0.25" />
         <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/layout/activity_main2.xml" value="0.20520833333333333" />
         <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/layout/activity_menu_creator.xml" value="0.28306159420289856" />
+        <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/layout/activity_menu_rest.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/layout/activity_register.xml" value="0.1" />
+        <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/layout/activity_restarant_menu.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/layout/app_bar_menu_rest.xml" value="0.20885416666666667" />
+        <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/layout/content_menu_rest.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/layout/fragment_reflow.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/layout/fragment_settings.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/layout/fragment_slideshow.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/layout/fragment_transform.xml" value="0.22291666666666668" />
+        <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/layout/item_transform.xml" value="0.22291666666666668" />
         <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/layout/multiline_spinner_row.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/rosar/AndroidStudioProjects/Deliver/app/src/main/res/layout/nav_header_menu_rest.xml" value="0.22291666666666668" />
       </map>
     </option>
   </component>

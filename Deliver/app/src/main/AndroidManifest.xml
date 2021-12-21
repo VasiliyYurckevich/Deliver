@@ -11,6 +11,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Deliver">
         <activity
+            android:name=".Register"
+            android:exported="false" />
+        <activity
+            android:name=".RestarantMenu"
+            android:exported="false" />
+        <activity
             android:name=".database.MenuRest"
             android:exported="false"
             android:label="@string/title_activity_menu_rest"
@@ -22,12 +28,9 @@
             android:exported="false" />
         <activity
             android:name=".MenuCreator"
-            android:exported="true"></activity>
+            android:exported="true" />
         <activity
             android:name=".LoginActivity"
-            android:exported="true"></activity>
-        <activity
-            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -35,6 +38,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"></activity>
 
         <meta-data
             android:name="preloaded_fonts"
